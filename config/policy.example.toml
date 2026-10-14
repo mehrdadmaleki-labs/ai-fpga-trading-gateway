@@ -1,0 +1,12 @@
+# Human-readable example only.
+# The Rust code does not parse this file yet.
+
+max_order_notional_cents = 50000000
+max_abs_position = 10000
+max_price_deviation_bps = 200
+kill_switch = false
+
+# TODO(HINT):
+# Add serde + toml crate to gateway-rs,
+# deserialize this into RiskPolicy,
+# validate all values before activation.
